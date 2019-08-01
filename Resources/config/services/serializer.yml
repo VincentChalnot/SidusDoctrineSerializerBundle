@@ -1,5 +1,5 @@
 services:
-    Sidus\DoctrineSerializerBundle\Serializer\EntityNormalizer:
+    Sidus\DoctrineSerializerBundle\Serializer\EntityDenormalizer:
         arguments:
             - '@serializer.normalizer.object'
             - '@doctrine'
